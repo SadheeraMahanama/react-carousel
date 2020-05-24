@@ -19,7 +19,6 @@ const data = [
    } 
 ]
 
-
 function HomeCarousel() {
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
@@ -34,7 +33,7 @@ function HomeCarousel() {
         <img
           className="d-block w-100"
           src={slide.image}
-          alt="First slide"
+          alt="slider image"
         />
         <Carousel.Caption>
           <h3>{slide.caption}</h3>
