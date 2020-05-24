@@ -26,7 +26,7 @@ function HomeCarousel() {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} interval={3000} pause={false}>
        {data.map((slide, i) => {
         return (
           <Carousel.Item>        
